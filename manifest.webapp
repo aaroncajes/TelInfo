@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "name": "Tel Info",
+  "description": "A tool that helps you detect network information in Firefox OS",
+  "launch_path": "/index.html",
+  "orientation": [
+    "portrait",
+    "portrait-primary"
+  ],
+  "type": "certified",
+  "permissions": {
+    "mobileconnection": {
+      "description": "Detects network information"
+    }
+  },
+  "icons": {
+    "60": "/60.png",
+    "128": "/128.png"
+  },
+  "developer": {
+    "name": "Aaron Cajes",
+    "url": "http://www.aaroncajes.com"
+  },
+  "default_locale": "en"
+}
